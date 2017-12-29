@@ -2,7 +2,8 @@
 repo for my alison.com c++ exercises
 
 Started with https://alison.com/course/introduction-to-c-plus-plus-programming as a refresher course.
-Made a hello world (hw.cpp) program mostly so I could figure out how I was going to compile and run it.
+
+I made a hello world (hw.cpp) program mostly so I could figure out how I was going to compile and run it.  The course shows usage of Visual Studio, and there exists a Visual Studio for Mac, but it seems to be focused on C#,  I could not figure out how to get it to work on a C++ program, and resorted to command-line g++ instead.
 
 Modules 1 & 2 were mostly things identical with C. They introduced a block syntax for initializing variables I hadn't seen before:
 int i{ 4 };
