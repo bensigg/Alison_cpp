@@ -10,3 +10,7 @@ int i{ 4 };
 but the g++ command-line compiler doesn't seem to like it.
 
 I spent some time testing the limits of the overloaded operators and indexing operations of the std::string class; see stringtests.cpp.
+
+*** 2 years later ***
+
+Taking on https://alison.com/course/c-plus-plus-programming-advanced-features next.
