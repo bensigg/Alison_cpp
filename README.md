@@ -15,10 +15,13 @@ I spent some time testing the limits of the overloaded operators and indexing op
 
 Taking on https://alison.com/course/c-plus-plus-programming-advanced-features next.
 
-Played with some of the sample code from the "references" video of the course.  Doesn't do much, but proves to myself it works the way they said it did; see basicrefs.cpp.
+See basicrefs folder:
+Played with some of the sample code from the "references" video of the course.  Doesn't do much, but proves to myself it works the way they said it did.
 
 Learned why I hadn't gotten block initialization `int i{4};` working before - it's part of a later standard than the default used by command-line g++; I have to pass `-std=c++11` or greater.
 
-Copied the Rectangle and NamedRectangle classes off the screen. Wrote code that exercised them in inheritance.cpp.
+See inheritance folder:
+Copied the Rectangle and NamedRectangle classes off the screen. Wrote sample code that exercised them.
 
-
+See polymorph folder:
+Copied the Triangle class and Shape (its abstract base) class off the screen; minor modifications to Rectangle so it also derives from Shape. Did as the course did, and created a function that takes a Shape reference and appears to call its pure virtual function, which results in the version from the derived class being used.
