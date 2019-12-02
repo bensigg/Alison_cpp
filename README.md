@@ -14,3 +14,9 @@ I spent some time testing the limits of the overloaded operators and indexing op
 *** 2 years later ***
 
 Taking on https://alison.com/course/c-plus-plus-programming-advanced-features next.
+
+Played with some of the sample code from the "references" video of the course.  Doesn't do much, but proves to myself it works the way they said it did; see basicrefs.cpp.
+
+Learned why I hadn't gotten block initialization `int i{4};` working before - it's part of a later standard than the default used by command-line g++; I have to pass `-std=c++11` or greater.
+
+
