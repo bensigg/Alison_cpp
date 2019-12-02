@@ -8,5 +8,12 @@ int main(void)
     }
     Squawker Bob("Bob");
 
+    Squawker Bob2(Bob);
+
+    {
+        Squawker noname;
+        noname = Bob;
+    }
+
     return 0;
 }

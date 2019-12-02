@@ -19,6 +19,19 @@ public:
     {
         std::cout << "destructor \"" << name << "\"" << std::endl;
     }
+
+    Squawker(const Squawker& other) : name{other.name}
+    {
+        std::cout << "copy constructor\"" << name << "\"" << std::endl;
+    }
+
+    const Squawker& operator=(const Squawker& other)
+    {
+        name = other.name;
+        std::cout << "assignment operator\"" << name << "\"" << std::endl;
+        return *this;
+    }
+
 private:
     std::string name;
 };
