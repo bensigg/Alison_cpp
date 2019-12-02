@@ -25,3 +25,5 @@ Copied the Rectangle and NamedRectangle classes off the screen. Wrote sample cod
 
 See polymorph folder:
 Copied the Triangle class and Shape (its abstract base) class off the screen; minor modifications to Rectangle so it also derives from Shape. Did as the course did, and created a function that takes a Shape reference and appears to call its pure virtual function, which results in the version from the derived class being used.
+
+See RAII folder:
